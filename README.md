@@ -25,6 +25,32 @@ Capture app plugin that transfers a tracked entity instance (TEI) to a new org u
     - `trackedEntityInstance=<teiId>`
 - A transfer is blocked if the destination org unit matches the current org unit.
 
+## Capture Layout (dataStore) Configuration
+If you use `capture/enrollmentOverviewLayout` to place widgets/plugins, point plugin `source`
+to your DHIS2 server URL (not `localhost`). Example:
+
+```json
+{
+  "<PROGRAM_UID>": {
+    "leftColumn": [
+      { "name": "QuickActions", "type": "component" },
+      { "name": "StagesAndEvents", "type": "component" }
+    ],
+    "rightColumn": [
+      {
+        "type": "plugin",
+        "source": "https://<your-dhis2-host>/api/apps/tei-transfer-plugin/plugin.html"
+      },
+      { "name": "FeedbackWidget", "type": "component" }
+    ]
+  }
+}
+```
+
+Replace:
+- `<PROGRAM_UID>` with your program UID.
+- `<your-dhis2-host>` with your DHIS2 base URL.
+
 ## Optional Enrollment Org Unit Update
 There is a feature flag in `src/components/TransferModal.tsx`:
 
