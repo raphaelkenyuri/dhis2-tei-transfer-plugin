@@ -1,0 +1,22 @@
+{
+  "name": "dhis2-tei-transfer-plugin",
+  "version": "1.0.24",
+  "description": "Capture app plugin to transfer TEI, enrollments, and events to a new org unit",
+  "license": "BSD-3-Clause",
+  "private": true,
+  "scripts": {
+    "build": "d2-app-scripts build",
+    "start": "d2-app-scripts start",
+    "test": "d2-app-scripts test",
+    "deploy": "d2-app-scripts deploy"
+  },
+  "dependencies": {
+    "@dhis2/app-runtime": "^3.14.5",
+    "@dhis2/ui": "^10.9.0",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@dhis2/cli-app-scripts": "^12.7.2"
+  }
+}

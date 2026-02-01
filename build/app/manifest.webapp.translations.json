@@ -1,0 +1,8 @@
+[
+  {
+    "locale": "en",
+    "shortcuts": {},
+    "title": "TEI Transfer Plugin",
+    "description": "Capture app plugin to transfer TEI, enrollments, and events to a new org unit"
+  }
+]

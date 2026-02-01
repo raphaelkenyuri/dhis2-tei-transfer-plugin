@@ -1,0 +1,22 @@
+{
+  "appType": "APP",
+  "short_name": "dhis2-tei-transfer-plugin",
+  "name": "TEI Transfer Plugin",
+  "description": "Capture app plugin to transfer TEI, enrollments, and events to a new org unit",
+  "version": "1.0.24",
+  "plugin_launch_path": "plugin.html",
+  "plugin_type": "CAPTURE_WIDGET_PLUGIN",
+  "default_locale": "en",
+  "activities": {
+    "dhis": {
+      "href": "*"
+    }
+  },
+  "icons": {
+    "48": "dhis2-app-icon.png"
+  },
+  "manifest_generated_at": "Sun Feb 01 2026 20:16:41 GMT+0300 (East Africa Time)",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff"
+}

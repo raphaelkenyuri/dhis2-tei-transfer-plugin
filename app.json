@@ -1,0 +1,9 @@
+{
+  "name": "tei-transfer-plugin",
+  "version": "1.0.24",
+  "description": "Capture app plugin to transfer a TEI to another org unit",
+  "type": "app",
+  "title": "TEI Transfer Plugin",
+  "coreApp": false,
+  "minDHIS2Version": "2.41"
+}

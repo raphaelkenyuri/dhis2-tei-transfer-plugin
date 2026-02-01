@@ -1,0 +1,41 @@
+{
+    "name": "@dhis2/app-shell",
+    "version": "12.10.1",
+    "engines": {
+        "node": "^18.0.0 || >=20.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/amcgee/dhis2-app-platform",
+        "directory": "shell"
+    },
+    "author": "Austin McGee <austin@dhis2.org>",
+    "license": "BSD-3-Clause",
+    "publishConfig": {
+        "access": "public"
+    },
+    "dependencies": {
+        "@dhis2/app-adapter": "12.10.1",
+        "@dhis2/app-runtime": "^3.14.3",
+        "@dhis2/d2-i18n": "^1.1.1",
+        "@dhis2/pwa": "12.10.1",
+        "@dhis2/ui": "^10.7.8",
+        "classnames": "^2.2.6",
+        "moment": "^2.29.1",
+        "post-robot": "^10.0.46",
+        "prop-types": "^15.7.2",
+        "react": "^18",
+        "react-dom": "^18",
+        "styled-jsx": "^4.0.1",
+        "typeface-roboto": "^0.0.75"
+    },
+    "scripts": {
+        "analyze": "source-map-explorer 'build/assets/*.js'"
+    },
+    "devDependencies": {
+        "enzyme": "^3.10.0",
+        "enzyme-adapter-react-16": "^1.14.0",
+        "react-test-renderer": "^16.8.6",
+        "source-map-explorer": "^2.5.3"
+    }
+}

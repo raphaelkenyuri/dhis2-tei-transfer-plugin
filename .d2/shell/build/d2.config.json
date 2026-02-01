@@ -1,0 +1,12 @@
+{
+  "type": "app",
+  "title": "TEI Transfer Plugin",
+  "pluginType": "CAPTURE_WIDGET_PLUGIN",
+  "direction": "auto",
+  "name": "dhis2-tei-transfer-plugin",
+  "version": "1.0.24",
+  "description": "Capture app plugin to transfer TEI, enrollments, and events to a new org unit",
+  "entryPoints": {
+    "plugin": "plugin.html"
+  }
+}
