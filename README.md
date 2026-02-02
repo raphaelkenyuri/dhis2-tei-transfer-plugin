@@ -39,7 +39,7 @@ to your DHIS2 server URL (not `localhost`). Example:
     "rightColumn": [
       {
         "type": "plugin",
-        "source": "https://<your-dhis2-host>/api/apps/tei-transfer-plugin/plugin.html"
+        "source": "https://<your-dhis2-host>/api/apps/dhis2-tei-transfer-plugin/plugin.html"
       },
       { "name": "FeedbackWidget", "type": "component" }
     ]
