@@ -47,7 +47,7 @@ const rootsQuery = {
   roots: {
     resource: 'organisationUnits',
     params: {
-      filter: 'level:eq:1',
+      userOnly: true,
       fields: 'id,displayName,path',
     },
   },

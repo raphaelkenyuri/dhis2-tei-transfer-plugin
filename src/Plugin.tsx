@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from 'react'
-import { Box, Button } from '@dhis2/ui'
+import { Box, Button, theme } from '@dhis2/ui'
 import { TransferModal } from './components/TransferModal'
 import './Plugin.css'
 
@@ -35,7 +35,7 @@ const Plugin: React.FC<PluginProps> = (props) => {
   const resolvedOrgUnitId = props.orgUnitId || props.enrollment?.orgUnit || ''
 
   return (
-    <Box>
+    <Box style={{ fontFamily: theme.fonts }}>
       {!panelOpen && (
         <Box className="tei-transfer-trigger-container">
           <Button primary onClick={() => setPanelOpen(true)} dataTest="tei-transfer-trigger">
